@@ -17,6 +17,7 @@ public class HolleWorld {
     @GetMapping
     public List<Student> sayHolleWorld()
     {
+        System.out.println("This is sayHolleWorld()!");
         return List.of(
                 new Student(1l,"Justin", LocalDate.of(1979, Month.JUNE,17),"jifengzhao88@gmail.com","123 Mercer Avenue",100),
                 new Student(2l,"Tina", LocalDate.of(1979,Month.JUNE,17),"jifengzhao88@gmail.com","123 Mercer Avenue",100),
